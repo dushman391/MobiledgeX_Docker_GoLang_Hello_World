@@ -23,3 +23,9 @@ To build the image, open a terminal, navigate to your temporary folder and type 
 ```
 docker build . -t hello:1
 ```
+
+## Step 3 -- Run the Image
+To run the image, type the following command in the terminal window from the previous step:
+``` 
+docker run -it -p 8000:8000 hello:1
+```
