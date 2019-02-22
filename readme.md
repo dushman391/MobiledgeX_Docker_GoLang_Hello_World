@@ -19,5 +19,7 @@ Upon completion, there will be three files within your temporary folder and the 
 
 ## Step 2 -- Build the Docker Image
 To build the image, open a terminal, navigate to your temporary folder and type the following command
+
 '''
 docker build . -t hello:1
+'''
