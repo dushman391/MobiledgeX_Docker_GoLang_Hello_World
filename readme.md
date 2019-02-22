@@ -5,9 +5,9 @@ We'll create a simple web application in Go for demonstration in this article. T
 * Serve up a basic HTML page for /, and
 * Use a configuration file to customize the application.
 
-## Final Directory Structure
-Upon completion, the directory structure will look like:
-+-- _
-|   +-- Dockerfile
-|   +-- index.html
-|   +-- main.go
+## Directory Structure
+Upon completion, there will only be three files within your temporary folder and the directory structure will look like:
+ - Dockerfile -- Docker configurations go in here
+ - index.html -- HTML page just to show that your Docker container works and can serve up a webpage
+ - main.go -- GoLang app that serves up index.html
+
