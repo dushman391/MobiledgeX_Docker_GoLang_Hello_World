@@ -23,7 +23,7 @@ func main() {
   PORT = "8001"
  }
  
- fmt.Println("Server Starting Listening on port "+ PORT)
+ fmt.Println("Server Started...  ")
  
  http.HandleFunc("/", HttpFileHandler)
 
