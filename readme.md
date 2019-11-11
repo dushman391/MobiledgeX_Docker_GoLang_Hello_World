@@ -23,7 +23,7 @@ docker build . -t hello:1
 ## Step 3 -- Run the Image
 To run the image, type the following command in the terminal window from the previous step:
 ``` 
-docker run -it -p 30300:8001 hello:1
+docker run -it -p 3030:8001 hello:1
 ```
 If this command is successful, you should immediately see a line of text that says "Server Started..."
 
